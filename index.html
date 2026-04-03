@@ -1,0 +1,180 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 15px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background: #444;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      padding: 5px 0;
+    }
+
+    .projects a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .projects a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header img {
+        width: 90px;
+        height: 90px;
+      }
+
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Your Tagline / Role</p>
+    <img src="your-photo.jpg" alt="Profile Photo Placeholder">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p>Write a short introduction about yourself here.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Job Title - Company</h3>
+      <p>Duration</p>
+      <p>Describe your responsibilities and achievements.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card projects">
+      <h3>Project Name</h3>
+      <p>Short description of the project.</p>
+      <a href="#">Project Link</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: your@email.com</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+      <p>
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+```
